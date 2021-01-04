@@ -3,7 +3,7 @@
 
  1. JavaScript is the dynamic programming language. 
  2. JavaScript can update and change both HTML and CSS.
- 3. JavaScript can calculate, manipulate andvalidate data.
+ 3. JavaScript can calculate, manipulate and validate data.
  4. In HTML, JavaScript code is inserted between `<script>` and `</script>` tags.
  5. Scripts tag can be placed in the `<body>`, or in the `<head>` section of an HTML page, or in both.
 
@@ -19,7 +19,9 @@ There are several data types inJavascript.
 |5|Undefined|
 |6|Object|
 
-    **JS – Output Display Possiblities:**
+
+**JS – Output Display Possiblities:**
+
 
     i. Writing into an HTML element, using innerHTML.
     ii. Writing into the HTML output using document.write().
@@ -29,11 +31,13 @@ There are several data types inJavascript.
 __JS – Syntax:__
 
 	The JavaScript syntax defines two types of values:
-    i. Fixed values 
+    i.  Fixed values 
+        * Fixed values are called Literals.
     ii. Dynamic Variable values 
+        *Variable values are called Variables.
 
-Fixed values are called Literals.
 
-Variable values are called Variables.
+
+
 
     
