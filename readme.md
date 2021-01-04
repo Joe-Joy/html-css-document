@@ -34,7 +34,7 @@ __JS – Syntax:__
     i.  Fixed values 
         * Fixed values are called Literals.
     ii. Dynamic Variable values 
-        *Variable values are called Variables.
+        * Variable values are called Variables.
 
 
 
