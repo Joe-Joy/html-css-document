@@ -3,29 +3,22 @@ body {
   margin: 0px;
 }
 header {
-  position:fixed;  
+  position: fixed;
   width: 2000px;
   display: flex;
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   padding: 0px 500px;
   border: 1px solid lightgray;
-  background-color:white;
-}
-
-#navbar {
-  
- 
+  background-color: white;
 }
 #navbar ul {
   list-style: none;
   text-align: center;
- 
 }
 #navbar ul li {
   display: inline-block;
- 
 }
 #navbar ul li a {
   text-decoration: none;
