@@ -27,11 +27,14 @@ header {
   font-size: 14px;
   color: rgb(65, 58, 58);
 }
-#navbar ul li a:hover, #navbar ul li a:active, #navbar ul li a:focus {
+#navbar ul li a:hover, #navbar ul li a:active{
   color: #13aa52;
   border-bottom: 4px solid #13aa52; 
 }
-
+#navbar ul li a:focus {
+  color: #13aa52;
+  border-bottom: 4px solid red; 
+}
 #content {
   margin: 20px;
   text-align: justify;
