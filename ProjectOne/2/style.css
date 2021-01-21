@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    
+    height: 100%;
+}
+#documentation {
+    color:white;
+    background-color: red;
+    height: 500px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
