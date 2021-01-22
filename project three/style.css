@@ -27,6 +27,23 @@ body {
     color: black; 
     margin: 10px;
 }
+.submenu:hover{
+    color: #13aa52;
+}
 #left-menu {
-    margin: -15px;
+   
+   
+}
+.menu-items {
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+.menu-items ul{
+    list-style: none;
+    
+}
+.item {
+    text-decoration: none;
+    color: black;
+    
 }
