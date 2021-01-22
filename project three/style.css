@@ -1,13 +1,16 @@
 *{
-    font-family: ubuntu;
+    font-family: verdana;
 }
 body {
     margin: 0;
     
 }
+#main-page {
+   
+}
 #main-logo{
-    border-bottom: 2px solid blue;
-    box-shadow: 60px red;
+    border-bottom: 2px solid rgb(2, 2, 56);
+    /* box-shadow: 0px 2px rgb(7, 225, 241); */
 }
  .container-fluid {
     margin: 0 auto;   
