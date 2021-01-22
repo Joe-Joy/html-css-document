@@ -31,19 +31,23 @@ body {
     color: #13aa52;
 }
 #left-menu {
-   
-   
+   margin: 0;
+  
 }
 .menu-items {
-    padding-bottom: 50px;
-    margin-bottom: 10px;
+    border-right: 2px solid red;
 }
 .menu-items ul{
     list-style: none;
-    
+    line-height:2.5;
 }
 .item {
     text-decoration: none;
-    color: black;
-    
+    color: black;    
+    padding:5px;
+    border: 1px solid lightgray;
+  
+}
+.items {
+    border-right: 2px solid red;
 }
