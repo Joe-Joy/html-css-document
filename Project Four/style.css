@@ -65,21 +65,16 @@ body {
 .item:hover {
   text-decoration: none;
   color: #13aa52;
-  
 }
-ul .dropdown {  
-  /* display: hidden; */
+ul .dropdown {
+  display: block;
 }
 .dropdown li a {
   color: white;
   text-decoration: none;
   padding: 5px;
   margin: 5px;
-
   color: black;
-  
-
-  
 }
 .dropdown li a:hover {
   border: 1px solid lightgray;
@@ -88,5 +83,5 @@ ul .dropdown {
   padding: 2px 20px;
   display: block;
 }
-ul li ul.dropdown li{
+ul li ul.dropdown li {
 }
