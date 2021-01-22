@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: ubuntu;
+}
+.main-page__logo {
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+    box-shadow: 1px 2px blue;
+    position: relative;
+}
+.main-page__logo ul {
+    margin: 0;
+    display: inline-block;
+    list-style: none;
+
+}
+.main-page__logo ul  li {
+	width:100px;
+	float:left;
+    margin-left: 12px;    
+}
+.submenu {
+    text-decoration: none;
+    display:block;
+	padding: 0 20px;
+    background-color:#fff;
+    color: black; 
+    margin: 10px;
+}
+#left-menu {
+    margin: -15px;
+}
