@@ -45,7 +45,7 @@ body {
   padding-right: 0px;
   padding-left: 0px;
 }
-.col-sm-2 {
+.menu-items, .col-sm-2 {
   background-color: white;
 }
 .col-sm-2 ul {
@@ -83,5 +83,6 @@ ul .dropdown {
   padding: 2px 20px;
   display: block;
 }
-ul li ul.dropdown li {
+ul li:hover ul.dropdown {
+  display: block; 
 }
