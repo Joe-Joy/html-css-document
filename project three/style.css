@@ -44,18 +44,30 @@ body {
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
+  overflow: hidden;
 }
-.col-sm-2 {
-  background-color: white;
+#scrollmenu{
+  right: 0;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+  padding: 0px 30px;
 }
-.col-sm-2 ul {
+.col-sm-3 ul {
   list-style: none;
   color: black;
   padding-left: 2px;
+  overflow-x: scroll;
+  
 }
-.col-sm-2 ul li {
+::-webkit-scrollbar-thumb{
+  background-color: black;
+}
+.col-sm- ul li {
   border-bottom: 1px solid lightgray;
   padding: 2px;
+  
 }
 .item {
   color: black;

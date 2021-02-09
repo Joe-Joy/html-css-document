@@ -30,14 +30,7 @@ body {
   padding: 15px 25px;
   display: inline-block;
 }
-.menu_icon a{
-  float: right;
-  font-size:20px;
-  margin-top: -50px;
-  color: black;
-  position: relative;
-  display: hidden;  
-}
+
 .submenu {
   text-decoration: none;
   background-color: #fff;
@@ -111,10 +104,20 @@ body {
   text-indent: 50px;
   text-align: justify;
 }
+/* .menu-toggle {
+  /* display: block;
+  width:40px;
+  height:40px;
+  margin:10px;
+  background-color:black;
+  cursor: pointer;
+  text-align: center;font-size:20px;
+  color: black;
+} */ */
 
 @media screen and (max-width: 1000px) {
   * {
-    /* background-color: pink; */
+    background-color: pink;
   }
   .main-page-menu li {
     padding: 15px 15px;
@@ -122,15 +125,12 @@ body {
   .item {
     font-size: 13.5px;
   }
-  .menu_icon i{   
-    display: hidden !important;  
-  } 
   
   
 }
 @media screen and (max-width: 800px) {
   * {
-    /* background-color: yellow; */
+    background-color: yellow;
   }
   .submenu {
     text-align: center;
@@ -157,7 +157,7 @@ body {
 
 @media screen and (max-width: 600px) {
   * {
-    /* background-color: violet; */
+    background-color: violet;
   }
   .main-page-menu {
     padding: 0 10px;
@@ -174,25 +174,15 @@ body {
   .dropdown li a{
     font-size: 10px;
   }
-  div.menu_icon{
-    display: hidden;
-  }
+  
 }
 
 @media screen and (max-width: 400px) {
   * {
-    /* background-color: rgb(177, 72, 95); */
-  }
-  .menu_icon{
-    padding-top: 5px;
-    float: right;
-    font-size:20px;
-    position: fixed;
+    background-color:white;
   } 
   #menu ul li{
-   
-    display:none;
-
+    display: none;
   }
   #menu ul li a{
     font-size: 12px;
@@ -204,9 +194,9 @@ body {
   }
   .menu_icon:hover, submenu:active {
     display: inline;
-    display: hidden; 
+    display: hidden;
   }
-  .menu_icon a{
+  .menu_icon{
     float: left;
     font-size:20px;
     margin-top: -50px;
@@ -215,14 +205,23 @@ body {
     display: hidden;  
   }
   .dropdown li a{
-      font-size: 10px;
+    font-size: 10px;
   }
-  .menu_icon a:hover, .submenu:active{
+  .menu-toggle {
     display: block;
-    
+    width:40px;
+    height:20px;
+    margin:10px;
+    background-color:white;
+    cursor: pointer;
+    text-align: center;font-size:20px;
+    color: black;
+    top: ;
   }
-  .item{
-    width: 200px;
+  .menu-toggle:before{
+    content: '\f0c9';
+    font-family: fontawesome;
+    line-height: 50px;
   }
 
 }

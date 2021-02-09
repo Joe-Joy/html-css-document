@@ -1,0 +1,29 @@
+body {
+  font-family: "verdana";
+  background-color: lightgray;
+}
+#table_one {
+  width: 40%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.source-table {
+  width: 60%;
+  height: 250px;
+  float: right;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color:lightgray;
+}
+.source-table2 {
+  position: fixed;
+  top: 0px;
+  margin-left: 270px;
+  margin-top: 43px;
+  background-color:lightgray;
+}
