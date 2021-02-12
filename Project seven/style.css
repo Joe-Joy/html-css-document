@@ -1,0 +1,59 @@
+body {
+  margin:  140px 0px;
+  font-family: verdana;
+}
+#login_form {
+    border: 12px solid lightgray !important;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    border-radius: 50px;
+    background-color: rgb(59, 199, 129);
+    padding: 30px;
+}
+
+.logo {
+    border-right: 1px solid black;
+    width: 200px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.logo h1{
+    text-align: center;
+
+}
+.login_details{
+    padding: 15px;
+    width: 20px;
+    text-align: center;
+    width:100px;
+}
+.login_details i{
+    font-size:60px;
+    padding-left:70px;
+    /* color:lightgray; */
+    margin-bottom:15px;
+}
+#username, #pwd {
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.button1,.button2 {
+    padding: 10px;    
+    margin-right: 6px;
+    width: 60px;
+}
+.button_container {
+    width: 150px;
+    margin-left: 20px;
+    padding-right: 15px;   
+}
+.col-sm-6{
+    /* border: 1px solid black; */
+    float: right;
+}
+
+

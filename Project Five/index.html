@@ -4,183 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation</title>
-    <link rel="stylesheet" type="text/css" href="style.css"
-    >
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   </head>
   <body>
-    <div id="main-page">
-      <div id="main-logo" class="container-fluid">
-        <div class="row">
-          <div class="col-sm-2 logo" >
-            <h4> LOGO </h4>
-          </div>
-          <div class="col-sm-9" id="menu"> 
-            <div class="menu-toggle"></div>           
-            <ul class="main-page-menu">              
-              <li><a class="submenu" href="mone">Home</a></li>
-              <li><a class="submenu" href="mtwo">Profile</a></li>
-              <li><a class="submenu" href="mthree">Address</a></li>
-              <li><a class="submenu" href="mfour">Contact US </a></li>
-              <li><a class="submenu" href="mfive">About</a></li>
-            </ul>
-            
-          </div>
-        </div>
+    <div id="main_page">
+      <div class="right_list_of_menu">
+        <ul>
+          <li><a href="details.html">Details</a></li> |
+          <li><a href="security.html">Security</a></li> | 
+          <li><a href="networking.html">Networking</a></li> |
+          <li><a href="storage.html">Storage</a></li> |
+          <li><a href="status.html">Status checks</a></li> |
+          <li><a href="monitoring.html">Monitoring</a></li> |
+          <li><a href="tags.html">Tags</a></li>
+        </ul>             
       </div>
-      <br>
-      <div id="left-menu">
-        <div class="container-fluid" class="menu-items">
-          <div class="row">
+      <div class="col-sm-10">
+         <div class="right_1box_heading">
+          <h1>Instance summary for i-0fe68ce52d710bc9 (react-dev) <a href="#">Info</a></h1>
+            <p>updated  less than a few minute ago</p>
+              <div class="container-fluid" >
+                  <div class="row">
+                    <div class="col-sm-4 right_1box_inside_columns" id="insideheading_part1">
+                      <h4>Instance ID</h4>
+                      <h5>i-0fe68ce52d710bcd9 (react-dev)</h5>
+                      <h4>Instance state</h4>
+                      <h5 class="running" >Running</h5>
+                      <h4>Instance type</h4>
+                      <h5>t2.micro</h5>
+                      <h4>AWS Compute Optimizer finding</h4>
+                      <p>Opt-in to aws Compute Optimizer for recommendations.| <a href="#">Learn more</a></p>
+                    </div>
+                    <div class="col-sm-4 right_1box_inside_columns" id="insideheading_part1">
+                      <h4>Public IPv4 address</h4>
+                      <h5>_</h5>
+                      <h4>Public IPv4 DNS</h4>
+                      <h5>_</h5>
+                      <h4>Elastic IP addresses</h4>
+                      <h5>_</h5>
+                      <h4>IAM Role</h4>
+                      <p><a href="#">aws-elasticbeanstalk-ec2-role</a></p>
+                    </div>
+                    <div class="col-sm-4 right_1box_inside_columns">
+                      <h4>Private IPv4 address</h4>
+                      <p>10.1.4.179</p>
+                      <h4>Private IPv4 DNS</h4>
+                      <p>ip-10-1-4-179.us-west-1.compute.internal</p>
+                      <h4>VPC ID</h4>
+                      <p><a href="#">vpc-03436fbfbf5680476 (gfints-vpc-dev)</a></p>
+                      <h4>Subnet ID</h4>
+                      <p style="text-indent: 20px;"><a href="#">subnet-0424df215050d45d6 (dev-gfints-private-subnet-2)</a></p>
+                        </div>
+                    </div>
+                  </div>                  
+                </div>
+                              
+              
             
-            <div class="col-sm-2" id="sidemenu">
-             
-              
-              <ul class="scrollbar">
-                <!-- dropdown 1 -->
-                <li><a class="item">Introduction  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#Intro1">Intro 1</a></li>
-                    <li><a href="#Intro2">Intro 2</a></li>
-                    <li><a href="#Intro3">Intro 3</a></li>                    
-                  </ul>             
-                </li>
-                <!-- dropdown 2 -->
-                <li>
-                  <a class="item">Installation  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#Install1">Install 1</a></li>
-                    <li><a href="#Install2">Install 2</a></li>
-                    <li><a href="#Install3">Install 3</a></li>                    
-                  </ul>
-                </li>
-                <!-- dropdown 3 -->
-                <li><a class="item">Aggregation  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#Aggre1">Aggre 1</a></li>
-                    <li><a href="#Aggre2">Aggre 2</a></li>
-                    <li><a href="#Intro3">Aggre 3</a></li>                    
-                  </ul>
-                </li>
-                <!-- dropdown 4 -->
-                <li><a class="item">Data Models  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#Data1">Data 1</a></li>
-                    <li><a href="#Data2">Data 2</a></li>
-                    <li><a href="#Data3">Data 3</a></li>                    
-                  </ul>
-                </li>
-                <!-- dropdown 5-->
-                <li><a class="item">Transactions  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#Trans1">Trans 1</a></li>
-                    <li><a href="#Trans2">Trans 2</a></li>
-                    <li><a href="#Trans3">Trans 3</a></li>
-                    <li><a href="#Trans4">Trans 4</a></li>
-                    <li><a href="#Trans5">Trans 5</a></li>
-                    
-                  </ul>
-                </li>
-                <!-- dropdown 6-->
-                <li><a class="item">Indexes  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#Indexes1">Indexes 1</a></li>
-                    <li><a href="#Indexes2">Indexes 2</a></li>
-                    <li><a href="#Indexes3">Indexes 3</a></li>
-                    <li><a href="#Indexes4">Indexes 4</a></li>
-                    <li><a href="#Indexes5">Indexes 5</a></li>
-                  </ul>
-                </li>
-                <!-- dropdown 7 -->
-                <li><a class="item">Security &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#secur1">secur 1</a></li>
-                    <li><a href="#secur2">secur 2</a></li>
-                  </ul>
-                </li>
-                <!-- dropdown 8 -->
-                <li><a class="item">Change Streams  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#str1">str 1</a></li>
-                    <li><a href="#str2">str 2</a></li>
-                    <li><a href="#str3">str 3</a></li>
-                    <li><a href="#str4">str 4</a></li>
-                  </ul>
-                </li>
-                <!-- dropdown 9 -->
-                <li><a class="item">Replication  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#rep1">rep 1</a></li>
-                    <li><a href="#rep2">rep 2</a></li>
-                    <li><a href="#rep3">rep 3</a></li>
-                  </ul>
-                </li>
-                <!--  -->
-                <li><a class="item">Replication  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#rep1">rep 1</a></li>
-                    <li><a href="#rep2">rep 2</a></li>
-                    <li><a href="#rep3">rep 3</a></li>
-                  </ul>
-                </li>
-                <!--  -->
-                <li><a class="item">Replication  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#rep1">rep 1</a></li>
-                    <li><a href="#rep2">rep 2</a></li>
-                    <li><a href="#rep3">rep 3</a></li>
-                  </ul>
-                </li>
-                <!--  -->
-                <li><a class="item">Replication  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#rep1">rep 1</a></li>
-                    <li><a href="#rep2">rep 2</a></li>
-                    <li><a href="#rep3">rep 3</a></li>
-                  </ul>
-                </li>
-                <!--  -->
-                <li><a class="item">Replication  &#9662</a>
-                  <ul class="dropdown">
-                    <li><a href="#rep1">rep 1</a></li>
-                    <li><a href="#rep2">rep 2</a></li>
-                    <li><a href="#rep3">rep 3</a></li>
-                  </ul>
-                </li>
-                
-              
-              </ul>
-            </div>
-          
-            <div class="col-sm-10" id="content">
-              <h3>Introduction:</h3>
-              <p>In an essay, article, or book, an introduction (also known as a prolegomenon) is a beginning section which states the purpose and goals of the following writing. This is generally followed by the body and conclusion.The introduction typically describes the scope of the document and gives the brief explanation or summary of the document. It may also explain certain elements that are important to the essay if explanations are not part of the main text. The readers can have an idea about the following text before they actually start reading it.
-              ln technical writing, the introduction typically includes one or more standard subsections: abstract or summary, preface, acknowledgments, and foreword. Alternatively, the section labeled introduction itself may be a brief section found side-by-side with abstract, foreword, etc. (rather than containing them). In this case the set of sections that come before the body of the book are known as the front matter. When the book is divided into numbered chapters, by convention the introduction and any other front-matter sections are unnumbered and precede chapter 1.            
-              Keeping the concept of the introduction the same, different documents have different styles to introduce the written text. For example, the introduction of a Functional Specification consists of information that the whole document is yet to explain. If a Userguide is written, the introduction is about the product. In a report, the introduction gives a summary about the report contents. Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
-
-            </p>
-            </div>
           </div>
-        </div>
-    </div>
+  </div>
+    
   </body>
-</html>
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
 </html>
